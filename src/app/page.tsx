@@ -1,3 +1,4 @@
+import Hero from "@/sections/hero/Hero";
 import Navbar from "@/sections/navbar/Navbar";
 import { Metadata } from "next";
 import React from "react";
@@ -10,6 +11,7 @@ export default function HomePage() {
   return (
     <>
       <Navbar />
+      <Hero />
     </>
   );
 }

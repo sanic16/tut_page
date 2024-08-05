@@ -1,0 +1,40 @@
+.hero {
+  background: #000 url("../../../public/images/header-background.jpg") center
+    center/cover no-repeat;
+  padding: 11.5rem 2rem 8rem;
+  color: white;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.hero-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+  padding-bottom: 8rem;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-right: -100px;
+}
+
+@media screen and (max-width: 1200px) {
+}
