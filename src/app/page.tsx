@@ -1,10 +1,12 @@
 import Chapters from "@/sections/chapters/Chapters";
 import Details from "@/sections/details/Details";
+import Footer from "@/sections/footer/Footer";
 import Hero from "@/sections/hero/Hero";
 import Information from "@/sections/information/Information";
 import Learn from "@/sections/learn/Learn";
 import Navbar from "@/sections/navbar/Navbar";
 import Newsletter from "@/sections/newsletter/Newsletter";
+import Social from "@/sections/social/Social";
 import Stats from "@/sections/stats/Stats";
 import Summary from "@/sections/summary/Summary";
 import Takeaway from "@/sections/takeaway/Takeaway";
@@ -28,6 +30,8 @@ export default function HomePage() {
       <Details />
       <Stats />
       <Newsletter />
+      <Social />
+      <Footer />
     </>
   );
 }

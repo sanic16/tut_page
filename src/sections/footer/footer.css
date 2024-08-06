@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--dark-color);
+  color: #fff;
+  border-top: 1px solid #384653;
+  padding: 0.5rem 2rem;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: var(--secondary-color);
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 0.5rem 1rem;
+  }
+}

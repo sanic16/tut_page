@@ -1,0 +1,44 @@
+.social {
+  background-color: var(--dark-color);
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-bottom: 0;
+}
+
+.social a {
+  color: #fff;
+}
+
+.social a:hover {
+  color: var(--secondary-color);
+}
+
+.social p {
+  margin-bottom: 2rem;
+}
+
+.social .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social svg {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .social .social-icons {
+    flex-wrap: wrap;
+  }
+
+  .social p {
+    font-size: 1.2rem;
+  }
+
+  .social svg {
+    font-size: 2rem;
+  }
+}
