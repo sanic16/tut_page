@@ -43,22 +43,22 @@ const Navbar = () => {
         <div className="main-menu-items">
           <ul className="main-menu-list">
             <li>
-              <Link href="#">Home</Link>
+              <Link href="/">Inicio</Link>
             </li>
             <li>
-              <Link href="#chapters">Chapters</Link>
+              <Link href="#chapters">Tutorías</Link>
             </li>
             <li>
-              <Link href="#summary">Summary</Link>
+              <Link href="#summary">Resumen</Link>
             </li>
             <li>
-              <Link href="#takeaways">Takeaways</Link>
+              <Link href="#takeaways">Notas</Link>
             </li>
             <li>
-              <Link href="#author">Author</Link>
+              <Link href="#author">Autor</Link>
             </li>
             <li>
-              <Link href="#contact">Contact</Link>
+              <Link href="contacto">Contacto</Link>
             </li>
             <li>
               <a href="https://www.facebook.com" target="_blank">
