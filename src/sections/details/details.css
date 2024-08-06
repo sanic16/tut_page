@@ -1,0 +1,53 @@
+.details,
+.details-flex {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.details img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.details h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.details .heading-border {
+  margin: 0;
+}
+
+.details p {
+  margin: 1rem 0 2rem;
+}
+
+/* Author */
+.details + .details .details-flex {
+  flex-direction: row-reverse;
+}
+
+.details ul {
+  margin-bottom: 2rem;
+}
+
+.details ul li {
+  line-height: 2;
+  display: flex;
+  align-items: center;
+}
+
+.details ul li svg {
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 992px) {
+  .details-flex,
+  .details + .details .details-flex {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

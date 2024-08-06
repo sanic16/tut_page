@@ -1,0 +1,27 @@
+.takeaways-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+.takeaways-cards .card {
+  flex-direction: row;
+  text-align: left;
+}
+
+.takeaways-cards .card svg {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .takeaways-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .takeaways-cards {
+    grid-template-columns: 1fr;
+  }
+}

@@ -107,6 +107,14 @@ img {
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
 /* Media Queries */
 @media (max-width: 1200px) {
 }
