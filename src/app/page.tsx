@@ -2,6 +2,7 @@ import Chapters from "@/sections/chapters/Chapters";
 import Hero from "@/sections/hero/Hero";
 import Learn from "@/sections/learn/Learn";
 import Navbar from "@/sections/navbar/Navbar";
+import Summary from "@/sections/summary/Summary";
 import { Metadata } from "next";
 import React from "react";
 
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Hero />
       <Learn />
       <Chapters />
+      <Summary />
     </>
   );
 }
