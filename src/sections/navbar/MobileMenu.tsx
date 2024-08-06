@@ -10,12 +10,23 @@ const MobileMenu = () => {
   return (
     <div className="mobile-menu">
       {/* Hamburguer button */}
-      <div className="mobile-menu-toggle" onClick={toggleMobileMenu}>
+      <div
+        className="mobile-menu-toggle"
+        onClick={toggleMobileMenu}
+        role="button"
+        aria-expanded={showMobileMenu}
+        aria-controls="mobile-menu-items"
+        aria-label="Open mobile menu"
+        tabIndex={0}
+      >
         <FaBars style={{ fontSize: "2rem" }} />
       </div>
 
       {/* Mobile Menu Items */}
-      <div className={`mobile-menu-items ${showMobileMenu && "active"}`}>
+      <div
+        className={`mobile-menu-items ${showMobileMenu && "active"}`}
+        id="mobile-menu-items"
+      >
         <ul className="mobile-menu-list">
           <li>
             <Link href="#">Home</Link>
@@ -36,12 +47,20 @@ const MobileMenu = () => {
             <Link href="#contact">Contact</Link>
           </li>
           <li>
-            <a href="https://www.facebook.com" target="_blank">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              aria-label="Follow Us on Facebook"
+            >
               <FaFacebook />
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com" target="_blank">
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              aria-label="Follow Us On Twitter"
+            >
               <FaTwitter />
             </a>
           </li>

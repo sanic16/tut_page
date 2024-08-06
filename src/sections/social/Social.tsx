@@ -17,22 +17,46 @@ const Social = () => {
           novedades
         </p>
         <div className="social-icons">
-          <a href="#">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            aria-label="Síguenos en Facebook"
+          >
             <FaFacebook />
           </a>
-          <a href="#">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            aria-label="Síguenos en Twitter"
+          >
             <FaTwitter />
           </a>
-          <a href="#">
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            aria-label="Síguenos en Instagram"
+          >
             <FaInstagram />
           </a>
-          <a href="#">
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            aria-label="Síguenos en LinkedIn"
+          >
             <FaLinkedin />
           </a>
-          <a href="#">
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            aria-label="Síguenos en YouTube"
+          >
             <FaYoutube />
           </a>
-          <a href="#">
+          <a
+            href="https://pinterest.com"
+            target="_blank"
+            aria-label="Síguenos en Pinterest"
+          >
             <FaPinterest />
           </a>
         </div>

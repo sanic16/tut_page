@@ -37,9 +37,15 @@ const Navbar = () => {
   console.log(bgOnScroll);
 
   return (
-    <nav className={`navbar ${bgOnScroll && "navbar--scroll"}`}>
+    <nav
+      className={`navbar ${bgOnScroll && "navbar--scroll"}`}
+      role="navigation"
+      aria-label="Main Navigation"
+    >
       <div className="navbar-flex container">
-        <Image src={logo} alt="logo" />
+        <Link href={"/"} aria-label="Logo Home Link">
+          <Image src={logo} alt="Tutor Logo" />
+        </Link>
         <div className="main-menu-items">
           <ul className="main-menu-list">
             <li>
@@ -61,12 +67,20 @@ const Navbar = () => {
               <Link href="contacto">Contacto</Link>
             </li>
             <li>
-              <a href="https://www.facebook.com" target="_blank">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                aria-label="Follow Us on Facebook"
+              >
                 <FaFacebook />
               </a>
             </li>
             <li>
-              <a href="https://www.twitter.com" target="_blank">
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                aria-label="Follow Us On Twitter"
+              >
                 <FaTwitter />
               </a>
             </li>

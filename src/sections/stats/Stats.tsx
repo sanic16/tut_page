@@ -12,20 +12,20 @@ const Stats = () => {
         <div className="stats-content">
           <div className="stats-numbers">
             <div>
-              <h3>600+</h3>
-              <p>Estudianets felices</p>
+              <h3 aria-labelledby="stats-happy-users">600+</h3>
+              <p id="stats-happy-users">Estudianets felices</p>
             </div>
             <div>
-              <h3>358</h3>
-              <p>Tutorías completadas</p>
+              <h3 aria-labelledby="stats-issues-solved">358</h3>
+              <p id="stats-issues-solved">Tutorías completadas</p>
             </div>
             <div>
-              <h3>180</h3>
-              <p>Buenas críticas</p>
+              <h3 aria-labelledby="stats-good-reviews">180</h3>
+              <p id="stats-good-reviews">Buenas críticas</p>
             </div>
             <div>
-              <h3>40</h3>
-              <p>Casos de estudio</p>
+              <h3 aria-labelledby="stats-case-studies">40</h3>
+              <p id="stats-case-studies">Casos de estudio</p>
             </div>
           </div>
           <p className="stats-text">
