@@ -4,6 +4,7 @@ import Hero from "@/sections/hero/Hero";
 import Information from "@/sections/information/Information";
 import Learn from "@/sections/learn/Learn";
 import Navbar from "@/sections/navbar/Navbar";
+import Newsletter from "@/sections/newsletter/Newsletter";
 import Stats from "@/sections/stats/Stats";
 import Summary from "@/sections/summary/Summary";
 import Takeaway from "@/sections/takeaway/Takeaway";
@@ -26,6 +27,7 @@ export default function HomePage() {
       <Takeaway />
       <Details />
       <Stats />
+      <Newsletter />
     </>
   );
 }
