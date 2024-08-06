@@ -29,7 +29,6 @@ export default function HomePage() {
       <Details />
       <Stats />
       <Newsletter />
-      <Social />
     </>
   );
 }
